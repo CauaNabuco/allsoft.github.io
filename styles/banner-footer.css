@@ -1,0 +1,144 @@
+.banner-footer{
+    width: 100%;
+    padding: 20px 3%;
+}
+#bannerf{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    background: var(--cor-fundo-card);
+    border-radius: var(--border-radius);
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/fundo-banner-footer.jpeg);
+    background-size: cover;
+    background-position: center 80%;
+    background-repeat: no-repeat;
+}
+#conteudo-bannerf{
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width: 70%;
+    text-align: center;
+}
+#conteudo-bannerf h2{
+    width: 80%;
+    font-weight: 300;
+    font-size: 6.5vh;
+    color: var(--cor-texto1);
+}
+#conteudo-bannerf h2 strong{
+    font-weight: 500;
+}
+#btn-banner a{
+    font-weight: 800;
+    font-size: 24px;
+    padding: 15px 80px;
+    background-color: var(--cor-texto1);
+    border-radius: var(--border-radius);
+    color: #091636;
+    transition: 0.3s ease;
+}
+#btn-banner a:hover{
+    background-color: transparent;
+    color: var(--cor-texto1);
+    outline: white solid 2px;
+}
+@media screen and (max-width:1200px){
+    #conteudo-bannerf h2{
+        font-size: 5.5vh;
+    }
+}
+@media screen and (max-width:1027px){
+    #conteudo-bannerf h2{
+        font-size: 5vh;
+    }
+    #btn-banner a{
+        font-size: 20px;
+        padding: 15px 60px;
+    }
+}
+@media screen and (max-width:936px){
+    #conteudo-bannerf h2{
+        font-size: 4.5vh;
+    }
+    #btn-banner a{
+        font-size: 20px;
+        padding: 15px 60px;
+    }
+}
+@media screen and (max-width:860px){
+    #conteudo-bannerf {
+        width: 90%;
+    }
+    #conteudo-bannerf h2{
+        font-size: 4vh;
+    }
+    #btn-banner a{
+        font-size: 20px;
+        padding: 15px 60px;
+    }
+}
+@media screen and (max-width:593px){
+    #conteudo-bannerf {
+        width: 95%;
+    }
+    #btn-banner a{
+        font-size: 18px;
+        padding: 15px 60px;
+    }
+}
+@media screen and (max-width:576px){
+    #conteudo-bannerf {
+        width: 95%;
+    }
+    #conteudo-bannerf h2{
+        font-size: 3.5vh;
+    }
+    #btn-banner a{
+        font-size: 18px;
+        padding: 15px 60px;
+    }
+    #bannerf{
+        height: 300px;
+    }
+}
+@media screen and (max-width:513px){
+    #conteudo-bannerf {
+        width: 95%;
+    }
+    #conteudo-bannerf h2{
+        font-size: 3vh;
+    }
+    #btn-banner a{
+        font-size: 17px;
+        padding: 12px 55px;
+    }
+}
+@media screen and (max-width:453px){
+    #conteudo-bannerf {
+        width: 97%;
+    }
+    #conteudo-bannerf h2{
+        font-size: 2.5vh;
+    }
+    #btn-banner a{
+        font-size: 16px;
+        padding: 12px 55px;
+    }
+}
+@media screen and (max-width:373px){
+    #conteudo-bannerf {
+        width: 100%;
+    }
+    #conteudo-bannerf h2{
+        font-size: 2.3vh;
+    }
+    #btn-banner a{
+        font-size: 15px;
+        padding: 12px 55px;
+    }
+}

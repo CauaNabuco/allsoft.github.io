@@ -1,0 +1,19 @@
+.footer{
+    padding: 20px 3%;
+}
+.footer p{
+    font-size: 1rem;
+    color: #BBBBBB;
+    text-align: center;
+}
+@media screen and (max-width: 850px){
+    .footer p{
+        font-size: 14px;
+    }   
+
+}
+@media screen and (max-width: 398px){
+    .footer p{
+        font-size: 12px;
+    }
+}

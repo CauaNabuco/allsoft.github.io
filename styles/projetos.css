@@ -1,0 +1,168 @@
+.projetos {
+    padding: 15px 3%;
+}
+#titulo-projetos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#titulo-projetos h2 {
+    font-size: 20px;
+    color: var(--cor-texto1);
+    font-weight: 300;
+}
+#titulo-projetos p{
+    font-size: 15px;
+    color: #575E5E;
+    font-weight: 400;
+}
+.card-item{
+    background-color: var(--cor-fundo-card);
+    width: 23.5%;
+    height: 400px;
+    border-radius: var(--border-radius);
+    box-shadow: rgba(0, 0, 0, 0.118) 0px 4px 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding: 2% 1%;
+    gap: 5px;
+    transition: transform 0.3s ease;
+}
+.card-item:hover{
+    transform: translateY(-8px);
+}
+.carrossel-card{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+#card-item1{
+    background-image: url(../images/projeto-eletric-nabuco.png);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+   
+
+} 
+#card-item2{
+    background-image: url(../images/image-projeto\ eletrico2.png);
+    background-size: cover;
+    background-position: center 62%;
+    background-repeat: no-repeat;
+   
+
+} 
+#card-item3{
+    background-image: url(../images/Imagem\ SPDA.png);
+    background-size: cover;
+    background-position: center 62%;
+    background-repeat: no-repeat;
+   
+
+} 
+#card-item4{
+    background-image: url(../images/subestacao-aerea.jpg);
+    background-size: cover;
+    background-position: center 62%;
+    background-repeat: no-repeat;
+   
+
+} 
+#card-item5{
+    background-image: url(../images/medicao-agrupada.png);
+    background-size: cover;
+    background-position: center 62%;
+    background-repeat: no-repeat;
+   
+
+} 
+#card-item6{
+    background-image: url(../images/image-automão.jpg);
+    background-size: cover;
+    background-position: center 62%;
+    background-repeat: no-repeat;
+   
+
+} 
+
+.btn-card{
+    width: 80%;
+    text-align: center;
+    background-color: #0a1111d6;
+    color: aliceblue;
+    padding: 8px;
+    border-radius: 20px;
+    outline: gray solid 0.5px;
+}
+.btn-card:hover{
+    background-color:#0a1111e8;
+    color: aliceblue;
+    
+}
+
+.btn-card a{
+    color: aliceblue;
+}
+.swiper-button-next,
+.swiper-button-prev {
+    color: var(--cor-primaria); 
+    
+}
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 20px; 
+}
+.swiper-pagination-bullet{
+    background-color: #575E5E;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--cor-primaria);
+}
+@media screen and (max-width: 1120px){
+    .card-item{
+        height: 350px;
+    }
+}
+@media screen and (max-width: 849px){
+    .card-item{
+        height: 400px;
+        padding: 5% 2%;
+    }
+}
+@media screen and (max-width: 572px){
+    .card-item{
+        height: 350px;
+    }
+    .swiper-button-prev,.swiper-button-next{
+        display: none;
+    }
+}
+@media screen and (max-width: 527px){
+    .card-item{
+        height: 300px;
+    }
+}
+@media screen and (max-width: 550px){
+    .card-item{
+        height: 250px;
+    }
+}
+@media screen and (max-width: 400px){
+    .card-item{
+        height: 250px;
+    }
+    .info-card p{
+    font-size: 15px;
+}
+}
+@media screen and (max-width: 380px){
+    .card-item{
+        height: 230px;
+    }
+    .info-card p{
+    font-size: 15px;
+}
+}

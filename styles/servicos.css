@@ -1,0 +1,149 @@
+.servicos-container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px 3%;
+    gap: 30px;
+}
+.card-item-servicos{
+    width: 30%;
+    height: 450px;
+    padding: 1%;
+    border-radius: var(--border-radius);
+    background-color: var(--cor-fundo-card);
+    transition: transform 0.3s ease, filter 0.3s ease;
+}
+.card-item-servicos:hover{
+    transform: scale(1.02);
+    filter: brightness(1.1);
+}
+.topo{
+    background-color: var(--cor-fundo-card2);
+    padding: 7%;
+    border-radius: var(--border-radius);
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+.topo h3{
+    color: var(--cor-texto1);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.titulo-sevico p{
+    color: var(--cor-texto1);
+    font-size: 15px;
+    font-weight: 400;
+}
+.descricao-servico p{
+    color: #C6C6C6;
+    font-weight: 300;
+
+}
+.btn-servico{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+}
+.btn-servico a{
+    text-align: center;
+    background-color: #161D1D;
+    color: aliceblue;
+    padding: 8px;
+    border-radius: 20px;
+    width: 100%;
+}
+.topo a:hover{
+    background-image: var(--gradiente);
+    color: var(--cor-texto1);
+}
+.descricao{
+    padding: 3%;
+    color: var(--cor-texto1);
+    font-weight: 300;
+}
+.descricao ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.descricao ul li{
+    display: flex;
+    gap: 5px;
+    list-style: none;
+}
+@media screen and (max-width: 952px){
+    
+    .descricao-servico p{
+        font-size: 14px;
+    }
+}
+@media screen and (max-width: 848px){
+    
+    .descricao ul li p{
+        font-size: 14px;
+    }
+    .servicos-container{
+        gap: 20px;
+    }
+    .card-item-servicos{
+    width: 50%;
+    height: 400px;
+    padding: 1%;
+    border-radius: var(--border-radius);
+    background-color: var(--cor-fundo-card);
+    transition: transform 0.3s ease, filter 0.3s ease;
+    }
+}
+@media screen and (max-width: 745px){
+    
+    .titulo-sevico p{
+        font-size: 13px;
+    }
+    .descricao-servico p{
+        font-size: 13px;
+    }
+    .descricao ul li p{
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 634px){
+    
+    .servicos-container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .card-item-servicos{
+    width: 100%;
+    padding: 3%;
+    }
+    .topo{
+        height: 200px;
+        padding: 5%;
+    }
+    .btn-servico a{
+        padding: 15px;
+        font-size: 16px;
+    }
+    .titulo-sevico p{
+        font-size: 24px;
+    }
+    .descricao-servico p{
+        font-size: 16px;
+    }
+    .descricao ul li p{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width: 340px){
+    .card-item-servicos{
+        height: auto;
+    }
+    .topo{
+        height: auto;
+    }
+}
