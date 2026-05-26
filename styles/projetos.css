@@ -90,14 +90,17 @@
 .btn-card{
     width: 80%;
     text-align: center;
-    background-color: #0a1111d6;
+    background-color: #0a1111bb;/*0a1111d6*/
+    backdrop-filter: blur(20px); 
     color: aliceblue;
     padding: 8px;
     border-radius: 20px;
     outline: gray solid 0.5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 .btn-card:hover{
-    background-color:#0a1111e8;
+    background-color: #0a1111cd;
+    backdrop-filter: blur(20px);
     color: aliceblue;
     
 }
